@@ -184,9 +184,9 @@ if __name__ == "__main__":
         help='the path to the file that contains the training text'
     )
     parser.add_argument(
-        '--model',
+        '--models',
         type=str,
-        default='data',
+        default='models',
         help='the path to the folder where the models will be saved'
     )
     namespace = parser.parse_args()
