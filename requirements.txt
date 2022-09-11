@@ -1,0 +1,6 @@
+numpy
+scikit-learn
+tqdm
+gensim
+xgboost
+argparse
