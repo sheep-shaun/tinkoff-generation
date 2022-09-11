@@ -129,7 +129,7 @@ class Word2VecWrapper:
         self.emb_size = 64
 
     def train(self, sentences, emb_size=64, window=7, min_count=1, sg=1,
-              workers=1, epochs=5):
+              workers=4, epochs=5):
         self.sentences = sentences
         self.emb_size = emb_size
 
